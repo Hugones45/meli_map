@@ -41,14 +41,13 @@ const allMelipon = [
 ]
 
 var customIcon = L.icon({
-    className: 'custom-icon', // Add a class for styling
+    className: 'custom-icon',
     iconUrl: 'imgs/bee-icon-map.png',
     iconSize: [35, 35],
-    iconAnchor: [22, 22], // Centraliza melhor o ícone
-    popupAnchor: [-3, -22] // Ajusta a posição do popup
+    iconAnchor: [22, 22],
+    popupAnchor: [-3, -22]
 });
 
-// Add CSS styles for the custom icon
 const style = document.createElement('style');
 style.innerHTML = `
     .custom-icon  {
@@ -90,7 +89,7 @@ fetch("beesGeo.json")
                 msg.style.zIndex = '1000';
                 document.body.appendChild(msg);
 
-                setTimeout(() => msg.remove(), 2000); // Remove after 2 seconds
+                setTimeout(() => msg.remove(), 2000);
             });
         });
         const geoJsonLayer = L.geoJSON(data, {
@@ -125,14 +124,12 @@ fetch("beesGeo.json")
             e.preventDefault();
             const inputValue = e.target.bees.value.trim().toLowerCase();
 
-            // Clear all markers from the map before adding the new ones
             map.eachLayer(layer => {
                 if (layer instanceof L.Marker) {
                     map.removeLayer(layer);
                 }
             });
 
-            // Busca as abelhas diretamente na lista `data`
             const foundBees = data.filter(feature =>
                 feature.properties.popularName.toLowerCase() === inputValue
             );
@@ -162,32 +159,25 @@ fetch("beesGeo.json")
                     </div>
                 `;
 
-                // Adiciona o evento de clique para centralizar o mapa na localização da abelha
                 const beeItems = document.querySelectorAll('.bee-item');
                 beeItems.forEach(item => {
                     item.addEventListener('click', () => {
                         const lat = parseFloat(item.getAttribute('data-lat'));
                         const lng = parseFloat(item.getAttribute('data-lng'));
 
-                        // Centraliza o mapa na localização da abelha clicada e aplica zoom
                         map.setView([lat, lng], 15);
 
-                        // Encontra a camada correspondente à abelha e abre o popup
                         const beeFeature = data.find(feature =>
                             feature.geometry.coordinates[1] === lat && feature.geometry.coordinates[0] === lng
                         );
 
                         if (beeFeature) {
-                            // Criar o marcador novamente com o ícone customizado
+
                             const marker = L.marker([lat, lng], { icon: customIcon }).addTo(map);
 
-                            // Obter o nome e informações da abelha
                             const { popularName, scientificName, local_nidificacao, id } = beeFeature.properties;
                             const findBeeImg = allMelipon.find(item => item.name.toLowerCase() === popularName.toLowerCase());
 
-
-
-                            // Adicionar o conteúdo do popup
                             if (findBeeImg) {
                                 marker.bindPopup(`
                                        <div class="pop-up-bees">
@@ -204,21 +194,17 @@ fetch("beesGeo.json")
                                    `);
                             }
 
-                            // Abrir o popup
                             marker.openPopup();
                         }
                     });
                 });
 
-                // Add markers for the found bees
                 foundBees.forEach(bee => {
                     const lat = bee.geometry.coordinates[1];
                     const lng = bee.geometry.coordinates[0];
                     const marker = L.marker([lat, lng], { icon: customIcon }).addTo(map);
                     const { popularName, scientificName, local_nidificacao, id } = bee.properties;
                     const findBeeImg = allMelipon.find(item => item.name.toLowerCase() === popularName.toLowerCase());
-
-
 
                     if (findBeeImg) {
                         marker.bindPopup(`
@@ -237,9 +223,7 @@ fetch("beesGeo.json")
                     }
                 });
 
-                // Add the toggle checkbox functionality
                 document.getElementById("toggle-bees").addEventListener("change", function () {
-                    // Clear all markers from the map
                     map.eachLayer(layer => {
                         if (layer instanceof L.Marker) {
                             map.removeLayer(layer);
@@ -247,7 +231,6 @@ fetch("beesGeo.json")
                     });
 
                     if (!this.checked) {
-                        // Add only the found bees to the map
                         foundBees.forEach(bee => {
                             const lat = bee.geometry.coordinates[1];
                             const lng = bee.geometry.coordinates[0];
@@ -272,7 +255,6 @@ fetch("beesGeo.json")
                             }
                         });
                     } else {
-                        // Add all bees back to the map
                         data.forEach(bee => {
                             const lat = bee.geometry.coordinates[1];
                             const lng = bee.geometry.coordinates[0];
@@ -300,7 +282,6 @@ fetch("beesGeo.json")
                 });
 
             } else {
-                // If no bees were found, keep all markers on the map
                 findBees.style.display = "block";
                 findBees.innerHTML = `<p>No bee found with that name.</p>`;
 
@@ -337,7 +318,6 @@ if (formClass.style.display === "" || formClass.style.display === "none") {
 }
 
 toggleButton.addEventListener("click", () => {
-    // Toggle the form visibility
     if (formClass.style.display === "none" || formClass.style.display === "") {
         hideButtonOfSearch.textContent = "Hide search"
 
