@@ -1,0 +1,548 @@
+[
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Jatai",
+            "scientificName": "Tetragonisca angustula",
+            "local_nidificacao": "Wall",
+            "id": 1
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.940186, -19.582844]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Jatai",
+            "scientificName": "Tetragonisca angustula",
+            "local_nidificacao": "Wall",
+            "id": 2
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.96, -19.58]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Jatai",
+            "scientificName": "Tetragonisca angustula",
+            "local_nidificacao": "Wall",
+            "id": 3
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.928701, -19.620217]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Jatai",
+            "scientificName": "Tetragonisca angustula",
+            "local_nidificacao": "Wall",
+            "id": 4
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.953249, -19.594251]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Jatai",
+            "scientificName": "Tetragonisca angustula",
+            "local_nidificacao": "Wall",
+            "id": 5
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.912565, -19.600804]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Jatai",
+            "scientificName": "Tetragonisca angustula",
+            "local_nidificacao": "Wall",
+            "id": 6
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.91323, -19.600836]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Jatai",
+            "scientificName": "Tetragonisca angustula",
+            "local_nidificacao": "Wall",
+            "id": 7
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.933905, -19.599491]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Jatai",
+            "scientificName": "Tetragonisca angustula",
+            "local_nidificacao": "Wall",
+            "id": 8
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.933165, -19.601195]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Jatai",
+            "scientificName": "Tetragonisca angustula",
+            "local_nidificacao": "Wall",
+            "id": 9
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.95150, -19.59383]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Jatai",
+            "scientificName": "Tetragonisca angustula",
+            "local_nidificacao": "Wall",
+            "id": 10
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.95024, -19.58705]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Jatai",
+            "scientificName": "Tetragonisca angustula",
+            "local_nidificacao": "Wall",
+            "id": 11
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.94956, -19.60035]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Jatai",
+            "scientificName": "Tetragonisca angustula",
+            "local_nidificacao": "Wall",
+            "id": 12
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.93505, -19.60768]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Irai",
+            "scientificName": "Nannotrigona testaceicornes",
+            "local_nidificacao": "Tree",
+            "id": 13
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.936855, -19.583549]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Irai",
+            "scientificName": "Nannotrigona testaceicornes",
+            "local_nidificacao": "Tree",
+            "id": 14
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.941013, -19.582466]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Irai",
+            "scientificName": "Nannotrigona testaceicornes",
+            "local_nidificacao": "Tree",
+            "id": 15
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.941823, -19.585842]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Irai",
+            "scientificName": "Nannotrigona testaceicornes",
+            "local_nidificacao": "Tree",
+            "id": 16
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.941147, -19.586409]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Irai",
+            "scientificName": "Nannotrigona testaceicornes",
+            "local_nidificacao": "Tree",
+            "id": 17
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.938465, -19.58891]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Irai",
+            "scientificName": "Nannotrigona testaceicornes",
+            "local_nidificacao": "Tree",
+            "id": 18
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.939039, -19.591751]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Irai",
+            "scientificName": "Nannotrigona testaceicornes",
+            "local_nidificacao": "Tree",
+            "id": 19
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.933068, -19.629545]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Mandaçaia",
+            "scientificName": "Melipona mandacaia",
+            "local_nidificacao": "House",
+            "id": 20
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.940054, -19.584574]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Mandaçaia",
+            "scientificName": "Melipona mandacaia",
+            "local_nidificacao": "House",
+            "id": 21
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.92029, -19.58414]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Mandaçaia",
+            "scientificName": "Melipona mandacaia",
+            "local_nidificacao": "House",
+            "id": 22
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.92329, -19.59263]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Mandaçaia",
+            "scientificName": "Melipona mandacaia",
+            "local_nidificacao": "House",
+            "id": 23
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.95642, -19.58705]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Mandaçaia",
+            "scientificName": "Melipona mandacaia",
+            "local_nidificacao": "House",
+            "id": 24
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.94346, -19.57483]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Mandaguari Preta",
+            "scientificName": "Scaptotrigona Postica",
+            "local_nidificacao": "Utility pole",
+            "id": 25
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.933429, -19.585519]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Mandaguari Preta",
+            "scientificName": "Scaptotrigona Postica",
+            "local_nidificacao": "Utility pole",
+            "id": 26
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.92962, -19.59473]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Mandaguari Preta",
+            "scientificName": "Scaptotrigona Postica",
+            "local_nidificacao": "Utility pole",
+            "id": 27
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.93590, -19.58434]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Mandaguari Preta",
+            "scientificName": "Scaptotrigona Postica",
+            "local_nidificacao": "Utility pole",
+            "id": 28
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.93069, -19.59153]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Mandaguari Preta",
+            "scientificName": "Scaptotrigona Postica",
+            "local_nidificacao": "Utility pole",
+            "id": 29
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.92332, -19.59667]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Mandaguari Preta",
+            "scientificName": "Scaptotrigona Postica",
+            "local_nidificacao": "Utility pole",
+            "id": 30
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.92312, -19.59677]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Mandaguari Preta",
+            "scientificName": "Scaptotrigona Postica",
+            "local_nidificacao": "Utility pole",
+            "id": 31
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.92438, -19.59619]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Mandaguari Preta",
+            "scientificName": "Scaptotrigona Postica",
+            "local_nidificacao": "Utility pole",
+            "id": 32
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.95213, -19.60202]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Mandaguari Preta",
+            "scientificName": "Scaptotrigona Postica",
+            "local_nidificacao": "Utility pole",
+            "id": 33
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.95248, -19.60059]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Arapua",
+            "scientificName": "Trigona spinipes",
+            "local_nidificacao": "Utility pole",
+            "id": 34
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.92785, -19.60887]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Arapua",
+            "scientificName": "Trigona spinipes",
+            "local_nidificacao": "Utility pole",
+            "id": 35
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.92678, -19.60824]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Arapua",
+            "scientificName": "Trigona spinipes",
+            "local_nidificacao": "Utility pole",
+            "id": 36
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.93956, -19.61360]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Arapua",
+            "scientificName": "Trigona spinipes",
+            "local_nidificacao": "Utility pole",
+            "id": 37
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.94034, -19.61723]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Arapua",
+            "scientificName": "Trigona spinipes",
+            "local_nidificacao": "Utility pole",
+            "id": 38
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.94990, -19.5810]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Arapua",
+            "scientificName": "Trigona spinipes",
+            "local_nidificacao": "Utility pole",
+            "id": 39
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.93802, -19.57424]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Caga-Fogo",
+            "scientificName": "Oxytrigona tataira",
+            "local_nidificacao": "Utility pole",
+            "id": 40
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.93203, -19.62370]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Caga-Fogo",
+            "scientificName": "Oxytrigona tataira",
+            "local_nidificacao": "Utility pole",
+            "id": 41
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.93274, -19.57706]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "popularName": "Caga-Fogo",
+            "scientificName": "Oxytrigona tataira",
+            "local_nidificacao": "Utility pole",
+            "id": 42
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-46.94298, -19.59601]
+        }
+    }
+]

@@ -1,0 +1,145 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Evita barras de rolagem desnecessárias */
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+  /* Style the container to position the map and form correctly */
+  .container {
+    position: relative; /* This allows absolute positioning for child elements */
+    width: 100%;
+    height: 500px; /* Match the height of the map */
+  }
+
+  /* Form container in the top-right corner */
+  .form-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgb(255, 255, 255); /* Add background for visibility */
+    border: 1px solid #000;
+    padding: 15px;
+    border-radius: 8px;
+    z-index: 1000; /* Ensure the form stays on top of the map */
+    width: 200px;
+  }
+
+  /* Style the form inputs */
+  /* .form-container input,
+  .form-container button {
+
+  } */
+
+  /* Target Leaflet popup container to give it more space */
+.leaflet-popup-content-wrapper {
+    width: 360px !important; /* Force the popup wrapper to be wider */
+    max-width: none !important; /* Remove any max-width restriction */
+  }
+
+  /* Ensure the bee image fits without affecting layout */
+  .bee-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px; /* Image size */
+    object-fit: cover; /* Maintain aspect ratio */
+    width: auto;
+    max-width: 150px; /* Limit the image width */
+  }
+  
+  /* Adjust descriptions for more space */
+  .pop-up-bees {
+    display: flex;
+    justify-content:center; /* Align items to the left */
+    align-items:center; /* Align items to the top */
+    gap: 20px; /* Space between image and text */
+    padding: 10px;
+    padding-bottom: 0;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding in width calculation */
+    width: 330px;
+    margin-left: -5px;
+  }
+  
+  .descriptions {
+    flex: 1; /* Allow descriptions to take remaining space */
+    padding-left: 10px; /* Add space between text and image */
+    width: 100%; /* Ensure it takes up all available space */
+  }
+
+  .form-class {
+    display: block;
+  }
+
+  .leaflet-popup-close-button {
+    margin: 0; /* Remove default margin */
+    padding: 15px; /* Add some padding to make it a bit more spaced out */
+    position: absolute;
+    top: 5px; /* Distance from the top edge of the white area */
+    margin-right: 8px;
+  }
+
+  .leaflet-popup-close-button span {
+    color: red;
+    
+  }
+
+  .find-bees {
+    display: none;
+  }
+
+  .bee-item {
+    color: red;
+    cursor: pointer;
+  }
+  
+  .found-bees-box {
+    max-height: 400px; /* Set the maximum height to control how much content can be visible */
+    overflow-y: auto; /* Enables vertical scrolling when content exceeds max height */
+    padding-right: 10px; /* Optional: To prevent content from sticking to the scrollbar */
+}
+
+  .shrunk {
+    display: block;
+  }
+  
+  .find-bees {
+    display: none; /* Hidden by default */
+  }
+  
+  .toggle-button button {
+    cursor: pointer;
+  }
+
+  .all-species-list{
+   background-color: #fff;;
+   padding: 10px;
+   border-top-left-radius: 4px;
+   border-top-right-radius: 4px;
+   box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+   cursor: pointer;
+  }
+
+  .content-all-species {
+    display: none;
+    background-color: #fff;
+    padding: 8px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+  }
+
+  .send-form-button {
+    margin-top: 10px;
+    cursor: pointer;
+  }

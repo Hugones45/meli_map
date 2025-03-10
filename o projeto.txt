@@ -1,0 +1,20 @@
+Funcionalidades
+
+input para procurar as abelhas por especie
+quando a pessoa bater o nome da abelha certo na tela ao lado vertical aonde esta o input ira aparecer as abelhas da especie, a quantidade delas, e a pessoa podera clicar no nome delas para que o mapa se direcione até la.
+
+
+
+PONTOS DAS ABELHAS NO MAPA
+
+quando o ponto das abelhas no mapa for clicado ira aparecer as seguintes informações sobre as abelhas
+
+Imagem da Abelha
+Especie da Abelha
+Local de Nidificação
+
+
+
+
+
+
