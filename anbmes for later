@@ -1,4 +1,0 @@
-
-const uniqueBees = [...new Set(data.map((item) => item.properties.name))];
-
-allBees.innerHTML += uniqueBees.map((name) => `<p>${name}</p>`).join("");
