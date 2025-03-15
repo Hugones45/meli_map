@@ -12,28 +12,21 @@
       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
       crossorigin=""
     />
-    <style></style>
+    <!-- <style id="custom-style" class="contorn-bees">
+      .custom-icon {
+        filter: drop-shadow(0 0 3px white) drop-shadow(0 0 4px white);
+      }
+
+      .custom-icon img {
+        width: 100%;
+        height: 100%;
+      }
+    </style> -->
     <title>Melipona Maps</title>
   </head>
   <body>
     <div class="container">
       <div id="map"></div>
-
-      <div class="form-container">
-        <div class="toggle-button">
-          <button class="hide-button-of-search">Hide Search</button>
-        </div>
-
-        <div class="form-content">
-          <form action="" class="form-class">
-            <p>Search for a bee</p>
-            <input type="text" placeholder="Type a bee name" id="bees" />
-            <button class="send-form-button" type="submit">Send</button>
-
-            <div class="find-bees"></div>
-          </form>
-        </div>
-      </div>
     </div>
 
     <script
@@ -70,14 +63,22 @@
         "Esri World Imagery": esriImagery,
       };
 
-      L.control.layers(baseMaps, null, { position: "topleft" }).addTo(map);
+      L.control.layers(baseMaps, null, { position: "topright" }).addTo(map);
 
-      var speciesControl = L.control({ position: "topleft" });
+      var speciesControl = L.control({ position: "topright" });
 
       speciesControl.onAdd = function (map) {
         var div = L.DomUtil.create("div", "species-list");
-        div.innerHTML =
-          "<div class='all-species-list'><strong>Species List</strong></div><div class='content-all-species'></div>";
+        div.innerHTML = `
+          <div class='all-species-list'>
+            <strong>Species List</strong>
+            </div>
+
+            <div class='content-all-species'>
+
+              </div>  
+          `;
+
         return div;
       };
 
