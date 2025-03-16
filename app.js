@@ -6,7 +6,7 @@ let showAllTheBeesOnMap = false;
 
 const allMelipon = [
     {
-        name: 'Irai',
+        name: 'Iraí',
         img: "imgs/abelha-irai.jpg",
         colorBee: "#00FF00"
     },
@@ -21,12 +21,12 @@ const allMelipon = [
         colorBee: "#00008B"
     },
     {
-        name: 'Jatai',
+        name: 'Jataí',
         img: "imgs/Abelhas-Jatai.jpg",
         colorBee: "#F660AB"
     },
     {
-        name: 'Arapua',
+        name: 'Arapuá',
         img: "imgs/urupua.jpg",
         colorBee: "#CCCCFF"
     },
